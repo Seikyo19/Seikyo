@@ -14,7 +14,7 @@ function showLetter() {
       if (i < message.length) {
         typedText.innerHTML += message.charAt(i);
         i++;
-        setTimeout(typeWriter, 0);
+        setTimeout(typeWriter, 90);
       }
     }
     
@@ -63,3 +63,4 @@ function createBackgroundHearts(count = 30) {
 }
 
 createBackgroundHearts(200);
+
